@@ -1,0 +1,46 @@
+.page {
+	background-color: #81C784;
+}
+
+.table, .table td, .table th, .table>thead>tr>th {
+	background-color: #C8E6C9;
+	border: 2px solid #00796B;
+}
+
+.container {
+	margin-top: 100px;
+}
+
+.subject-label {
+	font-size: 16px;
+}
+
+.subject-select {
+	min-width: 250px;
+}
+
+.submit {
+	float: right;
+	margin-top: 10px;
+}
+
+.upload {
+	border: 2px dashed black;
+	padding: 10px;
+}
+
+.nav-list {
+	float: right;
+}
+
+#lister ul, li {
+	list-style: none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
